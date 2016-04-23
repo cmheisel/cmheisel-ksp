@@ -1,0 +1,36 @@
+@PART[launchClamp1]
+{
+    @fuelCrossFeed = true
+    MODULE
+    {
+        name = ModuleGenerator
+        isAlwaysActive = true
+        OUTPUT_RESOURCE
+        {
+          name = Oxidizer
+          rate = 1
+        }	
+    }
+
+    MODULE
+    {
+        name = ModuleGenerator
+        isAlwaysActive = true
+        OUTPUT_RESOURCE
+        {
+          name = LiquidFuel
+          rate = 1
+        }	
+    }
+
+    MODULE
+    {
+        name = ModuleGenerator
+        isAlwaysActive = true
+        OUTPUT_RESOURCE
+        {
+          name = ElectricCharge
+          rate = 1
+        }	
+    }
+}
